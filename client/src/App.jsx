@@ -16,7 +16,7 @@ import Login from "./Pages/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Terms from "./Pages/Terms";
 import Privacy from "./Pages/Privacy";
-import Cookie from "./Pages/Cookie";
+import Cookie from "./Pages/Cookie"; 
 
 
 //  Importing secondary pages
