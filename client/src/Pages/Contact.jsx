@@ -27,8 +27,8 @@ export default function Contact() {
   const [errorMsg, setErrorMsg] = useState("");
   const [copied, setCopied] = useState(false);
 
-  const email = "ramanandmandal759@gmail.com";
-  const phone = "+977 9829704557";
+  const email = "contact@ramanandmandal.com.np";
+  const phone = "+977 9827399860";
   const address = "Basundhara Kathmandu Nepal";
   const linkedin = "https://www.linkedin.com/in/ramanand-mandal-24a124324/";
   const github = "https://github.com/ramanand00";

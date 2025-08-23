@@ -100,7 +100,7 @@ export default function Navbar() {
                 className="focus:outline-none"
               >
                  <img
-  src="/images/pp.jpg"
+  src="/logo.svg"
   alt="Ramanand Mandal"
   loading="lazy"
   className="w-10 h-10 rounded-full border-2 border-indigo-500 shadow-sm object-cover"
@@ -173,7 +173,7 @@ export default function Navbar() {
                 className="flex items-center gap-3 py-2 px-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 rounded w-full text-left focus:outline-none"
               >
                 <img
-  src="/images/pp.jpg"
+  src="/logo.svg"
   alt="Ramanand Mandal"
   loading="lazy"
   className="w-10 h-10 rounded-full border-2 border-indigo-500 shadow-sm object-cover"

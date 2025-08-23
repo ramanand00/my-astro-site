@@ -52,7 +52,7 @@ export default function Home() {
               View Projects <FaArrowRight className="ml-2" />
             </Link>
             <a
-              href="mailto:ramanandmandal759@gmail.com"
+              href="mailto:contact@ramanandmandal.com.np"
               className="inline-flex items-center px-5 py-3 text-sm font-medium text-indigo-600 border border-indigo-600 hover:bg-indigo-50 dark:hover:bg-gray-800 rounded-lg transition"
             >
               <FaEnvelope className="mr-2" /> Contact Me
