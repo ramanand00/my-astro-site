@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 import {
   FaPhoneAlt,
   FaEnvelope,
@@ -14,11 +14,8 @@ import {
   FaRegCopy,
   FaCheck,
   FaInstagram,
-  FaYoutube,
-  FaTelegramPlane,
-  FaDiscord,
 } from "react-icons/fa";
-import { motion } from "framer-motion"; // <-- Add this import
+import { motion } from "framer-motion";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -34,11 +31,8 @@ export default function Contact() {
   const github = "https://github.com/ramanand00";
   const whatsapp = "https://wa.me/9779829704557";
   const twitter = "https://x.com/csit_ramanand";
-  const facebook = "https://www.facebook.com/razzanand.mandal.2025";
+  const facebook = "https://www.facebook.com/ramanand.mandal.np";
   const instagram = "https://www.instagram.com/deepmeaningworld/";
-  const youtube = "https://youtube.com/@yourchannel";
-  const telegram = "https://@ramanandmandal";
-  const discord = "https://discord.gg/yourinvite";
 
   const handleCopy = (text) => {
     navigator.clipboard.writeText(text);
@@ -164,33 +158,6 @@ export default function Contact() {
                 >
                   <FaInstagram className="ml-4 mr-2" /> Instagram
                 </a>
-                <a
-                  href={youtube}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center hover:text-red-600 transition"
-                  title="YouTube"
-                >
-                  <FaYoutube className="ml-4 mr-2" /> YouTube
-                </a>
-                <a
-                  href={telegram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center hover:text-blue-400 transition"
-                  title="Telegram"
-                >
-                  <FaTelegramPlane className="ml-4 mr-2" /> Telegram
-                </a>
-                <a
-                  href={discord}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center hover:text-indigo-700 transition"
-                  title="Discord"
-                >
-                  <FaDiscord className="ml-4 mr-2" /> Discord
-                </a>
               </div>
             </div>
           </motion.div>
@@ -287,7 +254,7 @@ export default function Contact() {
         </motion.div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

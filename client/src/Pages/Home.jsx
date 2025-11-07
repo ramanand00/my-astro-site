@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaArrowRight, FaEnvelope, FaDownload } from "react-icons/fa";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 // import profileImg from "../assets/profile.jpg"; 
 
 export default function Home() {
@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

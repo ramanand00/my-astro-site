@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 const sectionVariant = {
   hidden: { opacity: 0, y: 40 },
@@ -183,7 +183,7 @@ const PrivacyPolicy = () => {
         Last Updated: July 26, 2025
       </p>
     </div>
-    <Footer />
+    {/* <Footer /> */}
     </>
   );
 };
