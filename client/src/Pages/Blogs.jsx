@@ -10,7 +10,7 @@ export default function Blogs() {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    axios.get("https://ramanand.onrender.com/api/blogs")
+    axios.get("https://portfolio-3mf2.vercel.app/api/blogs")
       .then(res => {
         setBlogs(res.data);
         setLoading(false);

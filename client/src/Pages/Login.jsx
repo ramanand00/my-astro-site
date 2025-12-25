@@ -25,7 +25,7 @@ const Login = () => {
     }
 
     try {
-      const res = await axios.post("https://ramanand.onrender.com/api/auth/login", {
+      const res = await axios.post("https://portfolio-3mf2.vercel.app/api/auth/login", {
         email: form.email,
         password: form.password,
       });

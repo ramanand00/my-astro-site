@@ -6,7 +6,7 @@ const RecentActivity = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get("https://ramanand.onrender.com/api/activities")
+    axios.get("https://portfolio-3mf2.vercel.app/api/activities")
       .then(res => {
         setActivities(res.data);
         setLoading(false);

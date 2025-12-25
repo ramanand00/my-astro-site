@@ -13,7 +13,7 @@ export default function BlogDetails() {
 
   useEffect(() => {
     axios
-      .get(`https://ramanand.onrender.com/api/blogs/${id}`)
+      .get(`https://portfolio-3mf2.vercel.app/api/blogs/${id}`)
       .then((res) => {
         setBlog(res.data);
         setLoading(false);

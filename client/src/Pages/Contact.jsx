@@ -46,7 +46,7 @@ export default function Contact() {
     setErrorMsg("");
     try {
       setLoading(true);
-      await axios.post("https://ramanand.onrender.com/api/contact", form);
+      await axios.post("https://portfolio-3mf2.vercel.app/api/contact", form);
       setSuccessMsg("Message sent successfully!");
       setForm({ name: "", email: "", message: "" });
     } catch (err) {

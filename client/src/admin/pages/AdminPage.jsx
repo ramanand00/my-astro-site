@@ -13,7 +13,7 @@ export default function AdminContactPage() {
 
   const fetchContacts = async () => {
     try {
-      const res = await axios.get("https://ramanand.onrender.com/api/contact");
+      const res = await axios.get("https://portfolio-3mf2.vercel.app/api/contact");
       setContacts(res.data);
       setFilteredContacts(res.data);
     } catch (err) {
@@ -46,7 +46,7 @@ export default function AdminContactPage() {
   if (!confirmDelete) return;
 
   try {
-    const response = await axios.delete(`https://ramanand.onrender.com/api/contact/${id}`);
+    const response = await axios.delete(`https://portfolio-3mf2.vercel.app/api/contact/${id}`);
     console.log("Delete success:", response.data);
 
     setContacts((prev) => prev.filter((c) => c._id !== id));
