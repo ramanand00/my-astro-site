@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.ramanandmandal.com.np/sitemap.xml
+Sitemap: http://localhost:5173/sitemap.xml

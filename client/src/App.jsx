@@ -61,7 +61,11 @@ function App() {
 
 
             {/* This is the Routes pages for Admin pages */}
-            <Route path="/dashboard" element={<ProtectedRoute> <Dashboard />  </ProtectedRoute>  } />
+            <Route path="/dashboard" element={
+              // <ProtectedRoute> 
+              <Dashboard /> 
+              //  </ProtectedRoute> 
+               } />
             <Route path="/new-blogs" element={<AdminBlogUploader />} />
             <Route path="/admin-blogs" element={<AdminBlogs />} />
             <Route path="/admin-page" element={<AdminPage />} />

@@ -25,7 +25,7 @@ const Login = () => {
     }
 
     try {
-      const res = await axios.post("https://portfolio-3mf2.vercel.app/api/auth/login", {
+      const res = await axios.post("http://localhost:5000/api/auth/login", {
         email: form.email,
         password: form.password,
       });

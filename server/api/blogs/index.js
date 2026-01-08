@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Blog = require("../models/Blog");
+const Blog = require("../../models/Blog");
 
 // GET all blogs
 router.get("/", async (req, res) => {
@@ -8,6 +8,7 @@ router.get("/", async (req, res) => {
     const blogs = await Blog.find().sort({ createdAt: -1 });
     res.json(blogs);
   } catch (err) {
+    console.error("Blog fetch error:", err);
     res.status(500).json({ error: "Failed to fetch blogs" });
   }
 });
@@ -21,6 +22,7 @@ router.get("/:id", async (req, res) => {
     }
     res.json(blog);
   } catch (err) {
+    console.error("Blog fetch by ID error:", err);
     res.status(400).json({ error: "Invalid blog ID" });
   }
 });
@@ -29,18 +31,28 @@ router.get("/:id", async (req, res) => {
 router.post("/", async (req, res) => {
   try {
     const { title, slug, content, image, tags, author } = req.body;
+
+    if (!title || !content) {
+      return res.status(400).json({ error: "Title and content are required" });
+    }
+
     const newBlog = new Blog({
       title,
-      slug,
+      slug: slug || title.toLowerCase().replace(/\s+/g, "-"),
       content,
       image,
       tags,
       author,
     });
+
     await newBlog.save();
     res.status(201).json(newBlog);
   } catch (err) {
-    res.status(500).json({ error: "Failed to create blog", details: err.message });
+    console.error("Blog creation error:", err);
+    res.status(500).json({
+      error: "Failed to create blog",
+      details: err.message,
+    });
   }
 });
 

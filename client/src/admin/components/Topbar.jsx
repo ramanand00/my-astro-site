@@ -9,7 +9,7 @@ const Topbar = () => {
     const fetchUser = async () => {
       try {
         const token = localStorage.getItem("token"); // JWT or your auth token
-        const res = await axios.get("https://portfolio-3mf2.vercel.app/api/user/me", {
+        const res = await axios.get("http://localhost:5000/api/user/me", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
