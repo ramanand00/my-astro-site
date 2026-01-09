@@ -9,7 +9,7 @@ export default function Blogs() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/blogs")
+    axios.get("https://my-astro-site-zpfu.vercel.app/api/blogs")
       .then(res => {
         setBlogs(res.data);
         setLoading(false);

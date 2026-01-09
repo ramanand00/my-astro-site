@@ -6,7 +6,7 @@ const RecentActivity = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/activities")
+    axios.get("https://my-astro-site-zpfu.vercel.app/api/activities")
       .then(res => {
         setActivities(res.data);
         setLoading(false);

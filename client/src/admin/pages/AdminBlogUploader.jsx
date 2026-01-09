@@ -19,7 +19,7 @@ export default function AdminBlogUploader() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/blogs", formData);
+      const response = await axios.post("https://my-astro-site-zpfu.vercel.app/api/blogs", formData);
       console.log("Blog uploaded:", response.data);
       alert("Blog posted successfully!");
     } catch (error) {

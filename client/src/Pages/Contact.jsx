@@ -46,7 +46,7 @@ export default function Contact() {
     setErrorMsg("");
     try {
       setLoading(true);
-      await axios.post("http://localhost:5000/api/contact", form);
+      await axios.post("https://my-astro-site-zpfu.vercel.app/api/contact", form);
       setSuccessMsg("Message sent successfully!");
       setForm({ name: "", email: "", message: "" });
     } catch (err) {
