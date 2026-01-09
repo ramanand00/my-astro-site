@@ -9,7 +9,7 @@ export default function PersonalDetails() {
   const fetchUser = async () => {
     try {
       const token = localStorage.getItem("token"); // assume JWT saved on login
-      const res = await axios.get("https://my-astro-site-zpfu.vercel.app/api/user/me", {
+      const res = await axios.get("https://my-astro-site-9n6h.vercel.app/api/user/me", {
         headers: {
           Authorization: `Bearer ${token}`,
         },

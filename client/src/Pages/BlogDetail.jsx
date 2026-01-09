@@ -13,7 +13,7 @@ export default function BlogDetails() {
 
   useEffect(() => {
     axios
-      .get(`https://my-astro-site-zpfu.vercel.app/api/blogs/${id}`)
+      .get(`https://my-astro-site-9n6h.vercel.app/api/blogs/${id}`)
       .then((res) => {
         setBlog(res.data);
         setLoading(false);
