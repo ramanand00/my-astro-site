@@ -7,7 +7,7 @@ require("dotenv").config();
 const app = express();
 
 // Middleware
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['https://ramanand-portfolio-one.vercel.app'];
 app.use(cors({
   origin: allowedOrigins,
   credentials: true,

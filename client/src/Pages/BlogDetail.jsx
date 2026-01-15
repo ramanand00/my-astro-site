@@ -13,7 +13,7 @@ export default function BlogDetails() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/api/blogs/${id}`)
+      .get(`https://ramanand-portfolio-backend.vercel.app/api/blogs/${id}`)
       .then((res) => {
         setBlog(res.data);
         setLoading(false);

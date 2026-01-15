@@ -7,37 +7,37 @@
 
   <!-- Home -->
   <url>
-    <loc>http://localhost:5173</loc>
+    <loc>https://ramanand-portfolio-one.vercel.app</loc>
     <lastmod>2025-07-31</lastmod>
   </url>
 
   <!-- About -->
   <url>
-    <loc>http://localhost:5173/about</loc>
+    <loc>https://ramanand-portfolio-one.vercel.app/about</loc>
     <lastmod>2025-07-31</lastmod>
   </url>
 
   <!-- Projects -->
   <url>
-    <loc>http://localhost:5173/projects</loc>
+    <loc>https://ramanand-portfolio-one.vercel.app/projects</loc>
     <lastmod>2025-07-31</lastmod>
   </url>
 
   <!-- Skills -->
   <url>
-    <loc>http://localhost:5173/skills</loc>
+    <loc>https://ramanand-portfolio-one.vercel.app/skills</loc>
     <lastmod>2025-07-31</lastmod>
   </url>
 
   <!-- Blog -->
   <url>
-    <loc>http://localhost:5173/blog</loc>
+    <loc>https://ramanand-portfolio-one.vercel.app/blog</loc>
     <lastmod>2025-07-31</lastmod>
   </url>
 
   <!-- Contact -->
   <url>
-    <loc>http://localhost:5173/contact</loc>
+    <loc>https://ramanand-portfolio-one.vercel.app/contact</loc>
     <lastmod>2025-07-31</lastmod>
   </url>
 
