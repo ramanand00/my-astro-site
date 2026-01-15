@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://my-astro-site-9n6h.vercel.app/api",
+  baseURL: "http://localhost:5000/api",
   withCredentials: true, // for cookies/sessions if needed
 });
 

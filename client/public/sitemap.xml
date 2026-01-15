@@ -7,37 +7,37 @@
 
   <!-- Home -->
   <url>
-    <loc>https://my-astro-site-five.vercel.app/</loc>
+    <loc>http://localhost:5173</loc>
     <lastmod>2025-07-31</lastmod>
   </url>
 
   <!-- About -->
   <url>
-    <loc>https://my-astro-site-five.vercel.app/about</loc>
+    <loc>http://localhost:5173/about</loc>
     <lastmod>2025-07-31</lastmod>
   </url>
 
   <!-- Projects -->
   <url>
-    <loc>https://my-astro-site-five.vercel.app/projects</loc>
+    <loc>http://localhost:5173/projects</loc>
     <lastmod>2025-07-31</lastmod>
   </url>
 
   <!-- Skills -->
   <url>
-    <loc>https://my-astro-site-five.vercel.app/skills</loc>
+    <loc>http://localhost:5173/skills</loc>
     <lastmod>2025-07-31</lastmod>
   </url>
 
   <!-- Blog -->
   <url>
-    <loc>https://my-astro-site-five.vercel.app/blog</loc>
+    <loc>http://localhost:5173/blog</loc>
     <lastmod>2025-07-31</lastmod>
   </url>
 
   <!-- Contact -->
   <url>
-    <loc>https://my-astro-site-five.vercel.app/contact</loc>
+    <loc>http://localhost:5173/contact</loc>
     <lastmod>2025-07-31</lastmod>
   </url>
 
